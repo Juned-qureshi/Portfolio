@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content1 %}
+
+<div class="row">
+    {% for certificates in certificates_show %}
+
+    <div class="col-6">
+        <h4 class="text-light"> {{certificates.tittle }}</h4>
+        <img src="{% static certificates.path %}" width="500" height="800" class="img-fluid">
+    </div>
+    {% endfor %} 
+</div>
+{% endblock content1 %}

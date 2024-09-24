@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content1 %}
+<div class="row my-5">
+    <div class=" col-4 d-flex justify-content-center align-items-center">
+        <img src="{% static 'images/im.jpg' %}" alt="image" class="about_img">
+    </div>
+
+    <div class="col-7 text-left text-light ">
+        <h2>Hello !</h2>
+        <p class="fs-5">
+            Innovative and detail-oriented web developer with a strong foundation in HTML, CSS, SQL , Python and
+            framework like Django, Bootstrap. Eager to leverage academic training and hands-on project experience in web
+            development to contribute to a dynamic team. Passionate about developing user-friendly interfaces and
+            optimizing website performance.
+        </p>
+        <p class="fs-5">
+            I have a strong foundation in Django, Python, SQL, HTML, CSS and Bootstrap, with a passion for learning and
+            growing in the web development. While, I may not have any formal work experience yet, I have been honing my
+            skills throug personal projects and online tutorials. I am eager to apply my knowledge and continue to
+            expand
+            my expertise in a professional setting. I am confitent in my ability to contribute positively to any team
+            and I am excited about the opportunity to further my skills and make a meaningful impact in the industry.
+        </p>
+
+    </div>
+</div>
+
+<div class="row-my-2">
+    <h2 class="text-center" style="color: #4fff4f;">My Tech Stack</h2>
+
+    <div class="d-flex justify-content-around align-items-center">
+        <img src="{% static 'images/Python.jpg' %}" alt="python logo" width="60" height="70" class="img-fluid">
+
+        <img src="{% static 'images/django.jpg' %}" alt="django logo" width="40" height="70" class="img-fluid">
+
+        <img src="{% static 'images/sql.jpg' %}" alt="sql logo" width="70" height="70" class="img-fluid">
+
+        <img src="{% static 'images/html.jpg' %}" alt="html" width="50" height="70" class="img-fluid">
+
+        <img src="{% static 'images/css.jpg' %}" alt="css" width="70" height="70" class="img-fluid">
+    </div>
+</div>
+{% endblock content1 %}
